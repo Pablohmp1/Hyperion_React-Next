@@ -1,7 +1,9 @@
+import styles from './Topo.module.css'
+
 export default function Topo() {
     return (
     <header>
-        <div>
+        <div className= {styles.topo}>
             <picture>
                 <a href=""><img src="./logo.png"/></a>
             </picture>
